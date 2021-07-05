@@ -5,7 +5,7 @@ then
 echo "I need container name"
 exit
 fi
-
+container=$1
 if [ ! -d "/opt/monit/bin" ]
 then
   mkdir -p /opt/monit/bin
